@@ -10,4 +10,9 @@ function summerizeUser(userName, userAge, userHasHobby){
     return ('Name is ' + userName + ', age is ' + userAge + ' and user has hobbies: ' + userHasHobby); 
 }
 
-console.log(summerizeUser(name,age,hasHobbies)); 
+// Anonymous function
+const summerizeUser2 = function(userName, userAge, userHasHobby){
+    return ('Name is ' + userName + ', age is ' + userAge + ' and user has hobbies: ' + userHasHobby); 
+}
+
+console.log(summerizeUser2(name,age,hasHobbies)); 
