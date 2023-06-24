@@ -10,10 +10,21 @@ const hobbies = ['Flowers','Movies','Books'];
 
 hobbies.push('Yoga');
 
-for (let hobby of hobbies) {
+/* for (let hobby of hobbies) {
     console.log(hobby);
 }
 
 console.log(hobbies.map(hobby => 'Hobby: ' + hobby));
 
-console.log(hobbies);
+console.log(hobbies); */
+
+//Spread operator - ...
+const coppiedArray = [...hobbies];
+console.log(coppiedArray);
+
+//Rest operator - ...
+const toArray = (...args) => {
+    return args;
+};
+
+console.log(toArray(1,2,3));
