@@ -15,4 +15,9 @@ const summerizeUser2 = function(userName, userAge, userHasHobby){
     return ('Name is ' + userName + ', age is ' + userAge + ' and user has hobbies: ' + userHasHobby); 
 }
 
-console.log(summerizeUser2(name,age,hasHobbies)); 
+// Arrow function
+const summerizeUser3 = (userName, userAge, userHasHobby) => {
+    return ('Name is ' + userName + ', age is ' + userAge + ' and user has hobbies: ' + userHasHobby); 
+}
+
+console.log(summerizeUser3(name,age,hasHobbies)); 
